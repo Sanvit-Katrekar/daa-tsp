@@ -4,11 +4,7 @@ include("main.jl")
 
 export solve_mTSP
 
-
-
-
 # for precompilation of the module
-
 
 n_nodes, n_vehicles = 10, 2
 coordinates = rand(n_nodes, 2) .* 1000
